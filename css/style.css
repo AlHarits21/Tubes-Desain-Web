@@ -1,0 +1,152 @@
+/* Body */
+html body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+  text-transform: uppercase;
+}
+.nav-item {
+  padding: .5rem;
+}
+.nav-link {
+  color: #7a7676 !important;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: #cec8c8 !important;
+}
+.navbar-nav {
+  padding-right: 20px;
+}
+.fa-gamepad:hover {
+  color: #171515;
+}
+
+/* Carousel */
+.carousel-inner {
+  max-height: 70rem !important;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active {
+  transition: transform 1.5s ease;
+}
+.carousel-indicators li {
+  width: 40px;
+  height: 6px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.carousel-caption {
+  position: absolute;
+  top: 40%;
+  text-transform: uppercase;
+}
+.bg-custom {
+  background-color: rgba(0, 0, 0, .1);
+  color: white;
+  border-radius: 1rem;
+}
+.carousel-caption h1 {
+  font-size: 3.8rem;
+  text-transform: uppercase;
+  text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
+.border-primary {
+  border-top: .2rem solid #96999c!important;
+}
+.carousel-caption h3 {
+  font-size: 2.2rem;
+  text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
+
+/* Button */
+.btn-lg {
+  border-radius: 0.7rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-width: medium;
+}
+.btn-primary {
+  background-color: #84828a;
+  border: 3px solid #787879;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #b9b8bb;
+  border: 3px solid #787879;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding: 2rem;
+  border-radius: 0;
+}
+.display-5 {
+  text-align: center;
+  font-size: 2rem;
+  color: #49494b;
+}
+.lead {
+  text-align: center;
+  font-size: 2rem;
+  color: #b9b8bb;
+}
+
+/* Footer */
+#footer{
+  background-color: #353b48;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+.copyright{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* Social Media */
+.fa-facebook-f {
+  color: #3b5998;
+  font-size: 1.5rem;
+}
+.fa-twitter {
+  color: #00acee;
+  font-size: 1.5rem;
+}
+.fa-instagram {
+  color: #3f729b;
+  font-size: 1.5rem;
+}
+.fa-github {
+  color: #171515;
+  font-size: 1.5rem;
+}
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-github:hover {
+  color: #d5d5d5;
+}
+
+@media (max-width: 1199.98px) {
+  .carousel-caption h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .carousel-caption h3 {
+    font-size: 2.8rem;
+  }
+}

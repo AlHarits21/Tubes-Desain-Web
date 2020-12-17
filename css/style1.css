@@ -1,0 +1,131 @@
+/* Body */
+html body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+  
+  
+/* Navbar */
+.navbar {
+    position: sticky fixed;
+    width: 100%;
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+    text-transform: uppercase;
+}
+.nav-item {
+    padding: .5rem;
+}
+.nav-link {
+    color: #7a7676 !important;
+}
+.nav-link.active,
+.nav-link:hover {
+    color: #cec8c8 !important;
+}
+.navbar-nav {
+    padding-right: 20px;
+}
+.fa-gamepad:hover {
+    color: #171515;
+}
+  
+  
+/* Jumbotron */
+.jumbotron {
+    padding: 2rem;
+    border-radius: 0;
+}
+.display-5 {
+    text-align: center;
+    font-size: 2rem;
+    color: #49494b;
+}
+.lead {
+    text-align: center;
+    font-size: 2rem;
+    color: #b9b8bb;
+}
+
+/* Content */
+.container-lg {
+    text-align: justify;
+}
+.container-lg p {
+    font-size: 20px;
+}
+
+/* Button */
+.btn-lg {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-width: medium;
+}
+.btn-primary {
+    background-color: #84828a;
+    border: 3px solid #787879;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #b9b8bb;
+    border: 3px solid #787879;
+}
+
+/* Footer */
+#footer{
+    background-color: #353b48;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+.copyright{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+  
+/* Social Media */
+.fa-facebook-f {
+    color: #3b5998;
+    font-size: 1.5rem;
+}
+.fa-twitter {
+    color: #00acee;
+    font-size: 1.5rem;
+}
+.fa-instagram {
+    color: #3f729b;
+    font-size: 1.5rem;
+}
+.fa-github {
+    color: #171515;
+    font-size: 1.5rem;
+}
+  .fa-facebook-f:hover,
+  .fa-twitter:hover,
+  .fa-instagram:hover,
+  .fa-github:hover {
+    color: #d5d5d5;
+}
+  
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .carousel-caption h1 {
+      font-size: 3.4rem;
+    }
+    .carousel-caption h3 {
+      font-size: 2rem;
+    }
+}
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+      font-size: 3rem;
+    }
+    .carousel-caption h3 {
+      font-size: 1.8rem;
+    }
+}
